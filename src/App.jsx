@@ -9,7 +9,7 @@ const App = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" component={<HomePage/>} />
-                    <Route path="/byCategory/{}" component={<ByCategoryPage/>} />
+                    <Route path="/byCategory/:catagoryID" component={<ByCategoryPage/>} />
                     <Route path="/details/{}" component={<DetailsPage/>} />
                 </Routes>
             </BrowserRouter>
